@@ -2,7 +2,9 @@
 
 The test app with both react and flask.
 
-It refer to https://www.youtube.com/watch?v=_RSVoqXWzSw
+It refer as follows:
+  + https://www.youtube.com/watch?v=_RSVoqXWzSw
+  + https://velopert.com/3417
 
 
 ## Produce
