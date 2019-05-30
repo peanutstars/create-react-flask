@@ -4,10 +4,14 @@ The test app with both react and flask.
 
 It refer as follows:
   + https://www.youtube.com/watch?v=_RSVoqXWzSw
+    + HOW to use flask with react.
   + https://velopert.com/3417
+    + How to use react-router
+  + https://velog.io/@velopert/react-code-splitting
+    + How to use the code splitting
 
 
-## Produce
+## Getting Started
 
 1. create-react-app client
 2. cd client

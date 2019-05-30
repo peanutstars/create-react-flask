@@ -12,13 +12,15 @@ const Posts = ({location, match}) => {
                 <li><Link to={`${match.url}/3`}>Post #3</Link></li>
                 <li><Link to={`${match.url}/4`}>Post #4</Link></li>
             </ul>
-            <Route exact path={match.url} render={()=>(<h3>Please select any post</h3>)} />
-            <Route path={`${match.url}/:id`} component={Post} />
             <p/>
             <div>Posts</div>
             <div>location.pathname: {location.pathname}</div>
             <div>match.path: {match.path}</div>
             <div>match.url: {match.url}</div>
+            <p/>
+            
+            <Route exact path={match.url} render={()=>(<h3>Please select any post</h3>)} />
+            <Route path={`${match.url}/:id`} component={Post} />
         </div>
     );
 };
