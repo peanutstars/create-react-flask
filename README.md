@@ -7,12 +7,13 @@ It refer as follows:
     + How to use flask with react.
       + https://www.youtube.com/watch?v=_RSVoqXWzSw
   + branch: react-router 
-    + How to use react-router and Two methods for code splitting.
+    + How to use react-router and 2 methods for code splitting.
       + https://velopert.com/3417
       + https://velog.io/@velopert/react-code-splitting
   + branch react-ajax
-    + How to use async process of AJAX
+    + How to use async process of AJAX with axios and CSS animation
       + https://velopert.com/2597
+      + http://anicollection.github.io
 
 
 ## Setup Order
@@ -39,4 +40,4 @@ It refer as follows:
 2. cd create-react-flask
 3. make init
 4. make build && python app.py
-5. git checkout <flask-react|react-router|...>
+5. git checkout <flask-react|react-router|react-ajax|...>
